@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&family=Roboto+Mono:wght@300;400&display=swap');    
+    h1{
+        font-family:"Roboto Mono";
+        text-align: center;
+        color: rgb(117, 117, 117);
+        vertical-align: center;
+        text-align: center;;
+    }
+    h7{
+        font-family:"Roboto Mono";
+        text-align: center;
+        color: rgb(117, 117, 117);
+        vertical-align: center;
+        text-align: center;
+    }
+    h4{
+        font-family:"Comfortaa";
+        text-align: center;
+        color: rgb(117, 117, 117);
+        vertical-align: center;
+        text-align: center;
+    }
+    .navbar-brand{
+        font-family:"Roboto Mono";
+        color: white;
+    }
+    .navbar{
+        background: #a28bc7;
+        font-family: "Roboto Mono";
+    }
+    .btn{
+        background: #B399D4;
+        border: transparent;
+        color: white;
+        align-items: center;
+        margin: 20px 0 20px;
+    }
+    .btn:hover{
+        background: yellow;
+        transition: .9s;
+        color: black;
+        border: transparent;
+    }
+    .btn-primary{
+        font-family: "Roboto Mono";
+        font-size: larger;
+    }
+    .card-body{
+        font-family: "Comfortaa";
+        padding-bottom: 20px;
+    }
+    .card{
+      cursor: pointer;
+      transition: 0.5s ease;
+    }
+    
+    .card:hover{
+         transform: scale(1.05);
+      box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    }
+    body{
+        background-image: url(https://64.media.tumblr.com/4ec366148a6db787b7f66e22637d861c/tumblr_p3pg165zLO1ucpx1qo3_640.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .nav-link {
+        color: #fff;
+        letter-spacing: 3px;
+        padding: 15px;
+        margin-right: 20px;
+    }
+    
+    .nav-link .active,
+    .nav-link:focus,
+    .nav-link .active,
+    .nav-link:hover {
+        color: #fff !important;
+        border-bottom: 3px solid #fff;
+        transition: 1.5s;
+        padding: 0px;
+    }
+
+    footer{
+        background: #a28bc7;
+        color: white;
+        font-family: "Roboto Mono";
+    
+    }
+    .section-class{
+        text-align: left;
+    }
+    .box1 {
+        background-color: rgba(0,0,0,.5);
+        color: #fff;
+    }
+    .card-body{
+        background-color: #C3B1E1;
+    }
+    .carousel-inner{
+        width: 500px;
+        height: 500px;
+    }
+    .logo{
+        width: 60px;
+        height: 60px;
+    cursor: pointer;
+}
+.logo:hover,
+.logo:focus,
+.logo:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: .3s;
+}
+.laman{
+    font-family:"Comfortaa";
+        text-align: center;
+        color: rgb(117, 117, 117);
+        vertical-align: center;
+        text-align: center;
+        font-size: 29px;
+}
+.zee1{
+    font-family:"Roboto Mono";
+        text-align: center;
+        color: rgb(117, 117, 117);
+        vertical-align: center;
+        text-align: center;
+        font-size: 20px;
+}
+.zeenism{
+    font-family:"Roboto Mono";
+        text-align: center;
+        color: rgb(117, 117, 117);
+        vertical-align: center;
+        text-align: center;;
+        font-size: 60px;
+        margin-top: 150px;
+}
+.sun{
+    top: 0;
+    left: 0;
+}
+
+.caption{
+    margin-top: 100px;
+}
+
+.laman{
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+/* .search{
+    width: 100px;
+    height: 100px;
+} */
+
+/* about me */
+.name{
+    padding: 20px 0 10px; /* top, left and right, bottom */
+}
+
+.profile-pic{
+    padding-bottom: 20px;
+}
+
+.pic1, .pic2, .pic3{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+.zee-life{
+    margin: 30px 0 20px;
+}
+
+.card-img-top{
+    width: 286px;
+    height: 286px;
+}
+
+.card-packaging{
+    margin-bottom: 20px;
+}
+
+.sza-row{
+    margin-top: 20px;
+}
+.caption{
+    font-family:"Comfortaa";
+        color: rgb(117, 117, 117);
+        margin-top: 10px;
+}
+.spinner{
+    background-color: #a28bc7;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+.spinner-border{
+    height: 20px;
+    width: 20px;
+}
+
